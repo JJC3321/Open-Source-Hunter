@@ -20,6 +20,7 @@ Next.js UI  ──▶  Copilot Runtime (Express) ──▶  Redis Queue ──�
 - Node.js 20+
 - Redis 6+ running locally (default `redis://127.0.0.1:6379`)
 - Gemini API key (`GEMINI_API_KEY` or `GOOGLE_API_KEY`)
+- Tavily API Key ('TAVILY_API_KEY')
 - Optional GitHub token (`GITHUB_TOKEN`) for higher rate limits
 
 ## Installation
