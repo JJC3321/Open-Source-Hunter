@@ -10,7 +10,7 @@ Open Source Hunter is an end-to-end CopilotKit experience that helps you scout, 
 - **Redis** – Shared job queue and transient datastore between the backend and worker.
 
 ```
-Next.js UI  ──▶  Copilot Runtime (Express) ──▶  Redis Queue ──▶  Hunter Worker ──▶  Tawily API
+Next.js UI  ──▶  Copilot Runtime (Express) ──▶  Redis Queue ──▶  Hunter Worker ──▶  Tavily API
              ▲                                  │                                     │
              └──────────────────── results ◀────┴────────── normalized recommendations ┘
 ```
