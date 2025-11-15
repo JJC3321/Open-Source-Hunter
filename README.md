@@ -6,11 +6,11 @@ Open Source Hunter is an end-to-end CopilotKit experience that helps you scout, 
 
 - **Frontend** – Next.js (App Router) with CopilotKit UI components.
 - **Backend** – Node.js/Express server embedding the Copilot Runtime + Gemini adapter.
-- **Worker (Hunter)** – Long-running Node.js process that consumes Redis jobs and queries the GitHub API.
+- **Worker (Hunter)** – Long-running Node.js process that consumes Redis jobs and queries the Tawily API.
 - **Redis** – Shared job queue and transient datastore between the backend and worker.
 
 ```
-Next.js UI  ──▶  Copilot Runtime (Express) ──▶  Redis Queue ──▶  Hunter Worker ──▶  GitHub API
+Next.js UI  ──▶  Copilot Runtime (Express) ──▶  Redis Queue ──▶  Hunter Worker ──▶  Tawily API
              ▲                                  │                                     │
              └──────────────────── results ◀────┴────────── normalized recommendations ┘
 ```
@@ -36,8 +36,7 @@ GEMINI_API_KEY=sk-...
 # Optional overrides
 # GEMINI_MODEL=gemini-1.5-pro
 # REDIS_URL=redis://127.0.0.1:6379
-# SEARCH_TIMEOUT_MS=20000
-# GITHUB_TOKEN=ghp_...
+# TAVILY_API_KEY = key
 # NEXT_PUBLIC_COPILOTKIT_URL=http://localhost:4000/copilotkit
 ```
 
