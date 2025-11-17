@@ -36,7 +36,6 @@ GEMINI_API_KEY=sk-...
 # Optional overrides
 # GEMINI_MODEL=gemini-1.5-pro
 # REDIS_URL=redis://127.0.0.1:6379
-# TAVILY_API_KEY = key
 # NEXT_PUBLIC_COPILOTKIT_URL=http://localhost:4000/copilotkit
 ```
 
