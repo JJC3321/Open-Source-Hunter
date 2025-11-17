@@ -104,4 +104,4 @@ npm run lint
 
 ---
 
-Built with ❤️ using [CopilotKit](https://copilotkit.ai) and the GitHub Search API.
+Built with ❤️ using [CopilotKit](https://copilotkit.ai) and the Tavily API.
